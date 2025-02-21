@@ -14,16 +14,20 @@ Este portfólio apresenta scripts desenvolvidos para automação e otimização 
 
 📂 Estrutura do Repositório
 
-/infra-automation-scripts
-│
-├── scripts/
-│   ├── reset_dns.bat           # Redefinir cache DNS no Windows
-│   ├── change_ip.ps1           # Trocar IP e Gateway no Windows
-│   ├── reset_dns_linux.sh      # Redefinir cache DNS no Linux
-│   ├── change_ip_linux.sh      # Trocar IP e Gateway no Linux
-│   ├── optimize_windows.reg    # Melhorias de desempenho no Windows
-│
-└── README.md                   # Documentação do projeto
+ <li>/infra-automation-scripts
+    <ul>
+      <li>scripts/
+        <ul>
+          <li>reset_dns.bat  # Redefinir cache DNS no Windows</li>
+          <li>change_ip.ps1  # Trocar IP e Gateway no Windows</li>
+          <li>reset_dns_linux.sh  # Redefinir cache DNS no Linux</li>
+          <li>change_ip_linux.sh  # Trocar IP e Gateway no Linux</li>
+          <li>optimize_windows.reg  # Melhorias de desempenho no Windows</li>
+        </ul>
+      </li>
+      <li>README.md  # Documentação do projeto</li>
+    </ul>
+  </li>
 
 🛠️ Como Funciona
 
