@@ -1,5 +1,6 @@
 # Scrpits-infra-Automacao
 
+
 🚀 Scripts para Automação de Infraestrutura
 
 Este repositório contém scripts úteis para otimização e manutenção de infraestrutura de TI, incluindo redefinição de cache DNS, troca de IPv4/gateway e melhorias no desempenho do Windows e Linux.
@@ -16,20 +17,15 @@ Este repositório contém scripts úteis para otimização e manutenção de inf
 📂 Estrutura do Repositório
 
 /infra-automation-scripts
-│── scripts/
-│   ├── reset_dns.bat
-│   ├── change_ip.ps1
-│   ├── reset_dns_linux.sh
-│   ├── change_ip_linux.sh
-│   ├── optimize_windows.reg
-│── README.md
-
-
-
-
-
-
-
+│
+├── scripts/
+│   ├── reset_dns.bat           # Redefinir cache DNS no Windows
+│   ├── change_ip.ps1           # Trocar IP e Gateway no Windows
+│   ├── reset_dns_linux.sh      # Redefinir cache DNS no Linux
+│   ├── change_ip_linux.sh      # Trocar IP e Gateway no Linux
+│   ├── optimize_windows.reg    # Melhorias de desempenho no Windows
+│
+└── README.md                   # Documentação do projeto
 
 🛠️ Como Usar
 
@@ -74,7 +70,6 @@ chmod +x change_ip_linux.sh
 2. Execute o script com permissões de superusuário:
 
 sudo ./change_ip_linux.sh
- 
 
 
 
@@ -85,6 +80,5 @@ sudo ./change_ip_linux.sh
 Utilize os scripts com cautela e apenas se souber o que está fazendo. Sempre teste em um ambiente seguro antes de aplicar na produção.
 
 ✉️ Dúvidas ou sugestões? Abra um problema! 🎯
-
-
+.
 
