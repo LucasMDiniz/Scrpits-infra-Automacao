@@ -23,13 +23,13 @@ Permissão de execução de scripts (Set-ExecutionPolicy Unrestricted se necess�
 
 
 📂 Estrutura do Repositório
-
+```
 📁 scripts-automacao-infra
  ├── 📜 reset_dns.ps1
  ├── 📜 trocar_ip.ps1
  ├── 📜 otimizar_windows.ps1
  ├── 📜 README.md
-
+```
 🔧 Como Usar
 
 Resetar Cache DNS
