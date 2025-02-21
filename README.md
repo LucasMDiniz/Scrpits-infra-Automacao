@@ -51,7 +51,5 @@ Otimizar Windows
 
 Sinta-se à vontade para contribuir com novos scripts ou melhorias! Basta abrir um Pull Request.
 
-📜 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
