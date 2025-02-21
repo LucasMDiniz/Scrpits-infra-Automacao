@@ -1,5 +1,3 @@
-# Scrpits-infra-Automacao
-
 
 🚀 Scripts para Automação de Infraestrutura
 
@@ -73,6 +71,15 @@ sudo ./change_ip_linux.sh
 
 
 
+O script executará os comandos:
+
+sudo ifconfig eth0 down
+sudo ifconfig eth0 up
+sudo ip addr add 192.168.1.100/24 dev eth0
+sudo ip route add default via 192.168.1.1
+
+
+
 
 
 ⚠️ Aviso
@@ -80,5 +87,4 @@ sudo ./change_ip_linux.sh
 Utilize os scripts com cautela e apenas se souber o que está fazendo. Sempre teste em um ambiente seguro antes de aplicar na produção.
 
 ✉️ Dúvidas ou sugestões? Abra um problema! 🎯
-.
 
