@@ -16,9 +16,13 @@ Este repositório contém scripts úteis para otimização e manutenção de inf
 
 /infra-automation-scripts
 │
+
 ├── scripts/
+
 │   ├── reset_dns.bat           # Redefinir cache DNS no Windows
+
 │   ├── change_ip.ps1           # Trocar IP e Gateway no Windows
+
 │   ├── reset_dns_linux.sh      # Redefinir cache DNS no Linux
 │   ├── change_ip_linux.sh      # Trocar IP e Gateway no Linux
 │   ├── optimize_windows.reg    # Melhorias de desempenho no Windows
