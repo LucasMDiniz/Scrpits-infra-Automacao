@@ -24,6 +24,13 @@ Este repositório contém scripts úteis para otimização e manutenção de inf
 │   ├── optimize_windows.reg
 │── README.md
 
+
+
+
+
+
+
+
 🛠️ Como Usar
 
 1. Windows:
