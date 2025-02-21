@@ -28,7 +28,10 @@ Permissão de execução de scripts (Set-ExecutionPolicy Unrestricted se necess�
  ├── 📜 reset_dns.ps1
  ├── 📜 trocar_ip.ps1
  ├── 📜 otimizar_windows.ps1
+ ├── 📜 reset_dns.sh
+ ├── 📜 configurar_rede_linux.sh
  ├── 📜 README.md
+
 ```
 🔧 Como Usar
 
