@@ -1,61 +1,52 @@
+Scripts de Automação de Infraestrutura
 
-🚀 Portfólio de Automação de Infraestrutura
+Este repositório contém diversos scripts para automação de tarefas relacionadas à infraestrutura de TI, incluindo reset de cache DNS, troca de IPv4 e gateway, além de otimizações de desempenho no Windows.
 
-Este portfólio apresenta scripts desenvolvidos para automação e otimização de infraestrutura de TI. Eles cobrem funcionalidades essenciais, como a redenefinição de cache DNS, troca de IPv4/gateway, e melhorias no desempenho de sistemas Windows e Linux.
+🚀 Funcionalidades
 
-📌 Funcionalidades Implementadas
+Resetar cache DNS
 
-🔄 Redefinir cache DNS e liberar conexões de rede (Windows e Linux)
+Alterar IPv4 e gateway
 
-🌐 Automação de troca de IP e gateway (Windows e Linux)
+Otimizações de desempenho no Windows
 
-⚡ Otimizações para desempenho do Windows
+Outras automações úteis para administração de sistemas
+
+
+📌 Requisitos
+
+Windows 10/11 (Administração de sistema)
+
+PowerShell 5.1 ou superior
+
+Permissão de execução de scripts (Set-ExecutionPolicy Unrestricted se necessário)
 
 
 📂 Estrutura do Repositório
 
- <li>/infra-automation-scripts
-    <ul>
-      <li>scripts/
-        <ul>
-          <li>reset_dns.bat  # Redefinir cache DNS no Windows</li>
-          <li>change_ip.ps1  # Trocar IP e Gateway no Windows</li>
-          <li>reset_dns_linux.sh  # Redefinir cache DNS no Linux</li>
-          <li>change_ip_linux.sh  # Trocar IP e Gateway no Linux</li>
-          <li>optimize_windows.reg  # Melhorias de desempenho no Windows</li>
-        </ul>
-      </li>
-      <li>README.md  # Documentação do projeto</li>
-    </ul>
-  </li>
+📁 scripts-automacao-infra
+ ├── 📜 reset_dns.ps1
+ ├── 📜 trocar_ip.ps1
+ ├── 📜 otimizar_windows.ps1
+ ├── 📜 README.md
 
-🛠️ Como Funciona
+🔧 Como Usar
 
-1. Windows:
+Resetar Cache DNS
 
-Os scripts foram desenvolvidos para otimizar e automatizar rotinas no Windows:
+./reset_dns.ps1
 
-reset_dns.bat: Limpeza de cache DNS para resolver problemas de rede e liberar conexões.
+Trocar IPv4 e Gateway
 
-change_ip.ps1: Automação da troca de IPv4 e gateway para facilitar ajustes na rede.
+./trocar_ip.ps1 -ip 192.168.1.100 -gateway 192.168.1.1
 
-optimize_windows.reg: Melhorias nas configurações do sistema para garantir mais desempenho.
+Otimizar Windows
 
+./otimizar_windows.ps1
 
-2. Linux:
+📌 Contribuições
 
-Para o Linux, os scripts garantem uma configuração ágil e automática:
-
-reset_dns_linux.sh: Limpeza de cache DNS, utilizando comandos do systemd e reinicialização do network-manager.
-
-change_ip_linux.sh: Troca do endereço IP e configuração do gateway com comandos do ifconfig e ip.
-
-
-⚠️ Aviso
-
-Os scripts foram criados para facilitar a administração de sistemas, mas devem ser usados com cautela. É importante garantir que os comandos sejam executados em um ambiente controlado antes de aplicá-los em produção.
-
-✉️ Dúvidas ou sugestões?
+Sinta-se à vontade para contribuir com novos scripts ou melhorias! Basta abrir um Pull Request.
 
 
 
